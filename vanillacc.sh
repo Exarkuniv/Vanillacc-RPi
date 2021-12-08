@@ -65,7 +65,8 @@ function install_vanillacc() {
 function configure_vanillacc() {
 	mv "/opt/retropie/ports/vanillacc/vanillara" "$md_inst/red alert"
 	mv "/opt/retropie/ports/vanillacc/vanillatd" "$md_inst/tiberian dawn"        
-	mv "/opt/retropie/ports/vanillacc/vanillatd
+	mv "/home/pi/RetroPie-Setup/tmp/build/vanillacc/CCLOCAL.MIX" "$romdir/ports/tiberian dawn"
+
 	addPort "$md_id" "vanillatd" "Vanilla-Command and Conquer" "'$md_inst/tiberian dawn/vanillatd'"
 		
 	addPort "$md_id" "red alert" "Vanilla-Red Alert" "'$md_inst/red alert/vanillara'"
