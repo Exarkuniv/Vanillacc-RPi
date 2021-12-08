@@ -26,6 +26,7 @@ function sources_vanillacc() {
 
     wget https://github.com/TheAssemblyArmada/Vanilla-Conquer/archive/refs/tags/latest.tar.gz
 	tar xvf latest.tar.gz
+	wget https://github.com/Exarkuniv/Vanillacc-RPi/raw/Master/CCLOCAL.MIX
 }
 
 function build_vanillacc() {
@@ -64,7 +65,7 @@ function install_vanillacc() {
 function configure_vanillacc() {
 	mv "/opt/retropie/ports/vanillacc/vanillara" "$md_inst/red alert"
 	mv "/opt/retropie/ports/vanillacc/vanillatd" "$md_inst/tiberian dawn"        
-
+	mv "/opt/retropie/ports/vanillacc/vanillatd
 	addPort "$md_id" "vanillatd" "Vanilla-Command and Conquer" "'$md_inst/tiberian dawn/vanillatd'"
 		
 	addPort "$md_id" "red alert" "Vanilla-Red Alert" "'$md_inst/red alert/vanillara'"
