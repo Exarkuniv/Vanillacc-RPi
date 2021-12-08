@@ -22,4 +22,4 @@ For the rest you are on your own.
 
 To install
 
-`wget https://raw.githubusercontent.com/Exarkuniv/shadowwarrior-RPi/Master/shadowwarrior.sh -P $HOME/RetroPie-Setup/scriptmodules/ports/`
+`wget https://raw.githubusercontent.com/Exarkuniv/Vanillacc-RPi/Master/vanillacc.sh -P $HOME/RetroPie-Setup/scriptmodules/ports/`
